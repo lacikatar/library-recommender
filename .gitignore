@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local database and secrets
+backend/library.db
+.env
+backend/.env
+
+# The old phpMyAdmin dump contains real people's details. Never commit it.
+*.sql
+
+# Frontend
+node_modules/
+frontend/dist/
